@@ -1,7 +1,7 @@
-package cn.voiceads.sql.sql;
+package com.icotools.sql;
 
-import cn.voiceads.sql.common.pgsql.Operator;
-import cn.voiceads.sql.common.pgsql.Where;
+import com.icotools.common.pgsql.Operator;
+import com.icotools.common.pgsql.Where;
 
 import java.util.Collection;
 import java.util.function.Predicate;

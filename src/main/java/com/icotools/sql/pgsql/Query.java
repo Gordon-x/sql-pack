@@ -1,17 +1,17 @@
-package cn.voiceads.sql.sql.pgsql;
+package com.icotools.sql.pgsql;
 
-import cn.voiceads.sql.sql.IHaving;
-import cn.voiceads.sql.common.pgsql.Keyword;
-import cn.voiceads.sql.common.pgsql.Operator;
-import cn.voiceads.sql.common.pgsql.Where;
-import cn.voiceads.sql.common.util.EscapeUtil;
-import cn.voiceads.sql.sql.ICondition;
-import cn.voiceads.sql.sql.IQuery;
-import cn.voiceads.sql.sql.IRelation;
+import com.icotools.sql.IHaving;
+import com.icotools.common.pgsql.Keyword;
+import com.icotools.common.pgsql.Operator;
+import com.icotools.common.pgsql.Where;
+import com.icotools.common.util.EscapeUtil;
+import com.icotools.sql.ICondition;
+import com.icotools.sql.IQuery;
+import com.icotools.sql.IRelation;
 
 import java.util.*;
 
-import static cn.voiceads.sql.common.pgsql.Operator.*;
+import static com.icotools.common.pgsql.Operator.*;
 
 /**
  * sql主体

@@ -1,4 +1,4 @@
-package cn.voiceads.sql.common.pgsql;
+package com.icotools.common.pgsql;
 
 public enum Operator {
   EQ("="),

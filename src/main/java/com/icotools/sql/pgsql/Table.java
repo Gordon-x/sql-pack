@@ -1,6 +1,6 @@
-package cn.voiceads.sql.sql.pgsql;
+package com.icotools.sql.pgsql;
 
-import cn.voiceads.sql.sql.IQuery;
+import com.icotools.sql.IQuery;
 import lombok.Getter;
 
 @Getter

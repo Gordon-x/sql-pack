@@ -1,9 +1,9 @@
-import cn.voiceads.sql.common.pgsql.Keyword;
-import cn.voiceads.sql.common.pgsql.Operator;
-import cn.voiceads.sql.sql.ICondition;
-import cn.voiceads.sql.sql.IQuery;
-import cn.voiceads.sql.sql.pgsql.Condition;
-import cn.voiceads.sql.sql.pgsql.Query;
+import com.icotools.common.pgsql.Keyword;
+import com.icotools.common.pgsql.Operator;
+import com.icotools.sql.ICondition;
+import com.icotools.sql.IQuery;
+import com.icotools.sql.pgsql.Condition;
+import com.icotools.sql.pgsql.Query;
 import org.junit.Test;
 
 import java.util.ArrayList;

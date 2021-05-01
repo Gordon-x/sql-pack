@@ -1,4 +1,4 @@
-package cn.voiceads.sql.common.pgsql;
+package com.icotools.common.pgsql;
 
 /**
  * 条件树对象（where & having)

@@ -1,11 +1,11 @@
-package cn.voiceads.sql.sql.pgsql;
+package com.icotools.sql.pgsql;
 
-import cn.voiceads.sql.common.pgsql.Keyword;
-import cn.voiceads.sql.common.pgsql.Node;
-import cn.voiceads.sql.common.pgsql.Operator;
-import cn.voiceads.sql.common.pgsql.Where;
-import cn.voiceads.sql.sql.IHaving;
-import cn.voiceads.sql.sql.IQuery;
+import com.icotools.common.pgsql.Keyword;
+import com.icotools.common.pgsql.Node;
+import com.icotools.common.pgsql.Operator;
+import com.icotools.common.pgsql.Where;
+import com.icotools.sql.IHaving;
+import com.icotools.sql.IQuery;
 
 import java.util.Collection;
 import java.util.function.Predicate;

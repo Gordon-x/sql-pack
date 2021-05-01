@@ -11,7 +11,7 @@
 
 ![Java Version](https://img.shields.io/badge/jvm-1.8-blue?style=for-the-badge&logo=appveyor)
 ![Build Status](https://img.shields.io/badge/build-pass-brightgreen?style=for-the-badge&logo=appveyor)
-![Latest Version](https://img.shields.io/badge/version-1.0.0_beta-9cf?style=for-the-badge&logo=appveyor)
+![Latest Version](https://img.shields.io/badge/version-1.0.0-9cf?style=for-the-badge&logo=appveyor)
 
 [中文文档](README.md)
 

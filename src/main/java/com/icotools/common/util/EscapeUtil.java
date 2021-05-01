@@ -1,6 +1,6 @@
-package cn.voiceads.sql.common.util;
+package com.icotools.common.util;
 
-import cn.voiceads.sql.common.pgsql.SpecialChar;
+import com.icotools.common.pgsql.SpecialChar;
 
 public class EscapeUtil {
   /**

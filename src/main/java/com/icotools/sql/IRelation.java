@@ -1,4 +1,4 @@
-package cn.voiceads.sql.sql;
+package com.icotools.sql;
 
 import java.util.List;
 

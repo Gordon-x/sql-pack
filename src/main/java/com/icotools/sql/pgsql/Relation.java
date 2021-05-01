@@ -1,9 +1,9 @@
-package cn.voiceads.sql.sql.pgsql;
+package com.icotools.sql.pgsql;
 
-import cn.voiceads.sql.sql.ICondition;
-import cn.voiceads.sql.common.pgsql.Keyword;
-import cn.voiceads.sql.sql.IQuery;
-import cn.voiceads.sql.sql.IRelation;
+import com.icotools.sql.ICondition;
+import com.icotools.common.pgsql.Keyword;
+import com.icotools.sql.IQuery;
+import com.icotools.sql.IRelation;
 
 import java.util.List;
 
