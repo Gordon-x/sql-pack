@@ -1,4 +1,4 @@
-# SQL组装工具<a name="sql_pack"></a>
+# SQL Splicing Tool<a name="sql_pack"></a>
 
 ```
  ███████╗  ██████╗  ██╗         ██████╗   █████╗   ██████╗ ██╗  ██╗
@@ -13,20 +13,20 @@
 ![Build Status](https://img.shields.io/badge/build-pass-brightgreen?style=for-the-badge&logo=appveyor)
 ![Latest Version](https://img.shields.io/badge/version-1.0.0_beta-9cf?style=for-the-badge&logo=appveyor)
 
-[README EN](README_EN.md)
+[中文文档](README.md)
 
-## 目录结构
+## Project Structure
 
 ```
 - cn.voiceads.sql
     |- common               
-        |- pgsql            pgsql拼接公共类
-        |- util             工具
-    |- sql                  组装接口
-        |- pgsql            pgsql接口实现类
+        |- pgsql            
+        |- util             
+    |- sql                  
+        |- pgsql            
 ```
 
-## 使用示例
+## Demo
 
 ```java
 String sql = Query.find()
@@ -42,15 +42,15 @@ ICondition cond = new Condition()
     .orWhere("t.name", Operator.NE, "gordon");
 
 String sql = Query.find()
-    .from("test1", "t1")
+    .from("test", "t")
     .whereLike("t.name", "abc")
     .andWhere(cond)
     .toSql();
 
-assert "select * from test1 as t1 where t.name like '%abc%' and (t.id = 1 or t.name != 'gordon')".equals(sql);
+assert "select * from test as t where t.name like '%abc%' and (t.id = 1 or t.name != 'gordon')".equals(sql);
 ```
 
-## 注意
+## Tips
 
-- from, with, join等方法中等alias参数请务必填写，否则会出现SQL执行异常或拼接SQL失败。
-- filterJoin等方法在使用过程中需注意与相关表字段与条件/分组的条件同步，避免filterJoin不成立时造成其相关字段仍然保留在sql内导致SQL错误。建议对同一个filter表的字段/条件使用相同的条件。
+- Please fill in the `alias` parameter in methods such as `from`, `with` and `join`, otherwise SQL execution exception or splicing SQL failure will occur.
+- The Boolean parameters of the `filterJoin` method should be consistent with the occurrence conditions of its related fields
