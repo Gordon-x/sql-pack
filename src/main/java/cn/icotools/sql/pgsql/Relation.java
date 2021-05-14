@@ -6,12 +6,12 @@
  * Vestibulum commodo. Ut rhoncus gravida arcu.
  */
 
-package com.icotools.sql.pgsql;
+package cn.icotools.sql.pgsql;
 
-import com.icotools.sql.ICondition;
-import com.icotools.common.pgsql.Keyword;
-import com.icotools.sql.IQuery;
-import com.icotools.sql.IRelation;
+import cn.icotools.sql.ICondition;
+import cn.icotools.common.pgsql.Keyword;
+import cn.icotools.sql.IQuery;
+import cn.icotools.sql.IRelation;
 
 import java.util.List;
 

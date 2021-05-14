@@ -6,7 +6,7 @@
  * Vestibulum commodo. Ut rhoncus gravida arcu.
  */
 
-package com.icotools.sql;
+package cn.icotools.sql;
 
 import java.util.List;
 

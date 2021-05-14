@@ -6,12 +6,12 @@
  * Vestibulum commodo. Ut rhoncus gravida arcu.
  */
 
-package com.icotools.sql;
+package cn.icotools.sql;
 
 
-import com.icotools.sql.pgsql.Condition;
-import com.icotools.common.pgsql.Operator;
-import com.icotools.common.pgsql.Where;
+import cn.icotools.sql.pgsql.Condition;
+import cn.icotools.common.pgsql.Operator;
+import cn.icotools.common.pgsql.Where;
 
 import java.util.Collection;
 import java.util.function.Predicate;

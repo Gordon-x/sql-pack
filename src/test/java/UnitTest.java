@@ -6,12 +6,12 @@
  * Vestibulum commodo. Ut rhoncus gravida arcu.
  */
 
-import com.icotools.common.pgsql.Keyword;
-import com.icotools.common.pgsql.Operator;
-import com.icotools.sql.ICondition;
-import com.icotools.sql.IQuery;
-import com.icotools.sql.pgsql.Condition;
-import com.icotools.sql.pgsql.Query;
+import cn.icotools.common.pgsql.Keyword;
+import cn.icotools.common.pgsql.Operator;
+import cn.icotools.sql.ICondition;
+import cn.icotools.sql.IQuery;
+import cn.icotools.sql.pgsql.Condition;
+import cn.icotools.sql.pgsql.Query;
 import org.junit.Test;
 
 import java.util.ArrayList;

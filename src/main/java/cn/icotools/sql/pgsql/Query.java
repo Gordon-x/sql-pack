@@ -6,20 +6,20 @@
  * Vestibulum commodo. Ut rhoncus gravida arcu.
  */
 
-package com.icotools.sql.pgsql;
+package cn.icotools.sql.pgsql;
 
-import com.icotools.sql.IHaving;
-import com.icotools.common.pgsql.Keyword;
-import com.icotools.common.pgsql.Operator;
-import com.icotools.common.pgsql.Where;
-import com.icotools.common.util.EscapeUtil;
-import com.icotools.sql.ICondition;
-import com.icotools.sql.IQuery;
-import com.icotools.sql.IRelation;
+import cn.icotools.sql.ICondition;
+import cn.icotools.sql.IHaving;
+import cn.icotools.sql.IQuery;
+import cn.icotools.sql.IRelation;
+import cn.icotools.common.pgsql.Keyword;
+import cn.icotools.common.pgsql.Operator;
+import cn.icotools.common.pgsql.Where;
+import cn.icotools.common.util.EscapeUtil;
 
 import java.util.*;
 
-import static com.icotools.common.pgsql.Operator.*;
+import static cn.icotools.common.pgsql.Operator.*;
 
 /**
  * sql主体

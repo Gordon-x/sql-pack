@@ -6,7 +6,7 @@
  * Vestibulum commodo. Ut rhoncus gravida arcu.
  */
 
-package com.icotools.common.pgsql;
+package cn.icotools.common.pgsql;
 
 public enum Keyword {
   SELECT("select"),

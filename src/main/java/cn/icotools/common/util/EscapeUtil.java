@@ -6,9 +6,9 @@
  * Vestibulum commodo. Ut rhoncus gravida arcu.
  */
 
-package com.icotools.common.util;
+package cn.icotools.common.util;
 
-import com.icotools.common.pgsql.SpecialChar;
+import cn.icotools.common.pgsql.SpecialChar;
 
 public class EscapeUtil {
   /**

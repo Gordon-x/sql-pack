@@ -6,9 +6,9 @@
  * Vestibulum commodo. Ut rhoncus gravida arcu.
  */
 
-package com.icotools.sql.pgsql;
+package cn.icotools.sql.pgsql;
 
-import com.icotools.sql.IQuery;
+import cn.icotools.sql.IQuery;
 import lombok.Getter;
 
 @Getter

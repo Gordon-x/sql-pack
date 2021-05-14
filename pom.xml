@@ -12,9 +12,29 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.icotools</groupId>
+    <groupId>cn.icotools</groupId>
     <artifactId>sql-pack</artifactId>
     <version>1.0.0</version>
+
+    <licenses>
+        <license>
+            <name>The Apache Software License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+    <scm>
+        <tag>master</tag>
+        <url>git@github.com:Gordon-x/sql-pack.git</url>
+        <connection>scm:git:git@github.com:Gordon-x/sql-pack.git</connection>
+        <developerConnection>scm:git:git@github.com:Gordon-x/sql-pack.git</developerConnection>
+    </scm>
+    <developers>
+        <developer>
+            <name>Gordon-x</name>
+            <email>a731450465@qq.com</email>
+        </developer>
+    </developers>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
@@ -41,14 +61,6 @@
 
     </dependencies>
 
-    <distributionManagement>
-        <repository>
-            <id>github</id>
-            <name>GitHub Gordon-x Apache Maven Packages</name>
-            <url>https://maven.pkg.github.com/Gordon-x/sql-pack</url>
-        </repository>
-    </distributionManagement>
-
     <build>
         <finalName>sql-pack</finalName>
         <plugins>
@@ -71,4 +83,39 @@
             </plugin>
         </plugins>
     </build>
+
+    <profiles>
+        <profile>
+            <id>release</id>
+            <build>
+                <plugins>
+                    <!-- GPG -->
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-gpg-plugin</artifactId>
+                        <version>1.5</version>
+                        <executions>
+                            <execution>
+                                <phase>verify</phase>
+                                <goals>
+                                    <goal>sign</goal>
+                                </goals>
+                            </execution>
+                        </executions>
+                    </plugin>
+                </plugins>
+            </build>
+            <distributionManagement>
+                <snapshotRepository>
+                    <id>oss</id>
+                    <url>https://s01.oss.sonatype.org/content/repositories/snapshots/</url>
+                </snapshotRepository>
+                <repository>
+                    <id>oss</id>
+                    <url>https://s01.oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+                </repository>
+            </distributionManagement>
+        </profile>
+
+    </profiles>
 </project>

@@ -6,27 +6,19 @@
  * Vestibulum commodo. Ut rhoncus gravida arcu.
  */
 
-package com.icotools.common.pgsql;
+package cn.icotools.common.pgsql;
 
 /**
- * 条件树节点
+ * 条件树对象（where , having)
  */
-public class Node {
-  public Where nodes;
-  public String value;
+public class Where {
+  public Where left;
+  public Keyword logic;
+  public Node right;
 
-  public Node(Where nodes) {
-    this.nodes = nodes;
-  }
-  public Node(String value) {
-    this.value = value;
-  }
-
-  public String getValue() {
-    return value;
-  }
-
-  public Where getNodes() {
-    return nodes;
+  public Where(Where left, Keyword logic, Node right) {
+    this.left = left;
+    this.logic = logic;
+    this.right = right;
   }
 }

@@ -6,14 +6,14 @@
  * Vestibulum commodo. Ut rhoncus gravida arcu.
  */
 
-package com.icotools.sql.pgsql;
+package cn.icotools.sql.pgsql;
 
-import com.icotools.common.pgsql.Keyword;
-import com.icotools.common.pgsql.Node;
-import com.icotools.common.pgsql.Operator;
-import com.icotools.common.pgsql.Where;
-import com.icotools.sql.IHaving;
-import com.icotools.sql.IQuery;
+import cn.icotools.sql.IHaving;
+import cn.icotools.sql.IQuery;
+import cn.icotools.common.pgsql.Keyword;
+import cn.icotools.common.pgsql.Node;
+import cn.icotools.common.pgsql.Operator;
+import cn.icotools.common.pgsql.Where;
 
 import java.util.Collection;
 import java.util.function.Predicate;

@@ -6,10 +6,10 @@
  * Vestibulum commodo. Ut rhoncus gravida arcu.
  */
 
-package com.icotools.sql;
+package cn.icotools.sql;
 
-import com.icotools.common.pgsql.Keyword;
-import com.icotools.common.pgsql.Operator;
+import cn.icotools.common.pgsql.Keyword;
+import cn.icotools.common.pgsql.Operator;
 
 import java.util.Collection;
 
